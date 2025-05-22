@@ -1,0 +1,41 @@
+/* popup/popup.css */
+body {
+  width: 200px; /* Slimmer popup */
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5; /* Light gray background */
+  margin: 0;
+}
+
+#maskData {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #4285f4; /* Google blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#checkSafety {
+  width: 100%;
+  padding: 8px;
+  background: #34a853; /* Google green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 10px;
+  padding: 6px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+/* Status colors */
+.safe { background: #e6f4ea; color: #34a853; } /* Light green */
+.warning { background: #fce8e6; color: #d93025; } /* Light red */
